@@ -67,20 +67,6 @@ installed with a variety of plugin managers:
 
 Author: Greg Fitzgerald <greg@gregf.org>
 
-Copyright 2015, Greg Fitzgerald.
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Added some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create new Pull Request
-
-## License
-
-Author: Greg Fitzgerald <greg@gregf.org>
-
 ```
 The MIT License (MIT)
 
