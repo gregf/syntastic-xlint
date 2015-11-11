@@ -14,6 +14,12 @@ if exists("g:loaded_syntastic_template_xlint_checker")
 endif
 let g:loaded_syntastic_template_xlint_checker = 1
 
+if exists('g:syntastic_extra_filetypes')
+    call add(g:syntastic_extra_filetypes, 'template')
+else
+    let g:syntastic_extra_filetypes = ['template']
+endif
+
 let s:save_cpo = &cpo
 set cpo&vim
 
