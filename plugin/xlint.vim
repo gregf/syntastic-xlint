@@ -9,6 +9,11 @@
 "
 "============================================================================
 
+if exists('g:loaded_syntastic_xlint_plugin')
+    finish
+endif
+let g:loaded_syntastic_xlint_plugin = 1
+
 if exists('g:syntastic_extra_filetypes')
     call add(g:syntastic_extra_filetypes, 'template')
 else
